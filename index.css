@@ -1,6 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-image: url("bg2.png");   /* image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
+
 *{
     margin: 0%;
     padding: 0%;
@@ -9,12 +15,16 @@ body{
 .container{
    width: 500px;
    padding: 20px;
-   background-color: #fff;
+   background-image: url("bg3.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
    border-radius: 6px;
    box-shadow: 1px 3px 4px 4px rgb(192, 192, 192);
    margin: auto;
    margin-top: 33px;
 }
+
 .container .searchBar{
     display: flex;
     gap: 4px;
@@ -67,7 +77,7 @@ body{
     text-align: center;
 }
 nav{
-    background-color: rgb(209, 42, 187);
+    background-color: rgb(4, 6, 106);
     color: white;
     text-align: center;
     height: 90px;
